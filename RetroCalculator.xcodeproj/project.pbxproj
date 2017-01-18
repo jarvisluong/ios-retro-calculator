@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		B6499EA31E2EBFFF00BB7CC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6499EA21E2EBFFF00BB7CC7 /* AppDelegate.swift */; };
-		B6499EA51E2EBFFF00BB7CC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6499EA41E2EBFFF00BB7CC7 /* ViewController.swift */; };
+		B6499EA51E2EBFFF00BB7CC7 /* CalculatorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6499EA41E2EBFFF00BB7CC7 /* CalculatorScreen.swift */; };
 		B6499EA81E2EBFFF00BB7CC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6499EA61E2EBFFF00BB7CC7 /* Main.storyboard */; };
 		B6499EAA1E2EBFFF00BB7CC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6499EA91E2EBFFF00BB7CC7 /* Assets.xcassets */; };
 		B6499EAD1E2EBFFF00BB7CC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6499EAB1E2EBFFF00BB7CC7 /* LaunchScreen.storyboard */; };
-		B6499EB81E2EBFFF00BB7CC7 /* RetroCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6499EB71E2EBFFF00BB7CC7 /* RetroCalculatorTests.swift */; };
-		B6499EC31E2EBFFF00BB7CC7 /* RetroCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6499EC21E2EBFFF00BB7CC7 /* RetroCalculatorUITests.swift */; };
+		B6499ED11E2FF4EF00BB7CC7 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6499ED01E2FF4EF00BB7CC7 /* Minecraft.ttf */; };
+		B6499ED31E2FF53900BB7CC7 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = B6499ED21E2FF53900BB7CC7 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,17 +36,15 @@
 /* Begin PBXFileReference section */
 		B6499E9F1E2EBFFF00BB7CC7 /* RetroCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6499EA21E2EBFFF00BB7CC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B6499EA41E2EBFFF00BB7CC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6499EA41E2EBFFF00BB7CC7 /* CalculatorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorScreen.swift; sourceTree = "<group>"; };
 		B6499EA71E2EBFFF00BB7CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6499EA91E2EBFFF00BB7CC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6499EAC1E2EBFFF00BB7CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6499EAE1E2EBFFF00BB7CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6499EB31E2EBFFF00BB7CC7 /* RetroCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6499EB71E2EBFFF00BB7CC7 /* RetroCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroCalculatorTests.swift; sourceTree = "<group>"; };
-		B6499EB91E2EBFFF00BB7CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6499EBE1E2EBFFF00BB7CC7 /* RetroCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6499EC21E2EBFFF00BB7CC7 /* RetroCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroCalculatorUITests.swift; sourceTree = "<group>"; };
-		B6499EC41E2EBFFF00BB7CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6499ED01E2FF4EF00BB7CC7 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		B6499ED21E2FF53900BB7CC7 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				B6499EA11E2EBFFF00BB7CC7 /* RetroCalculator */,
-				B6499EB61E2EBFFF00BB7CC7 /* RetroCalculatorTests */,
-				B6499EC11E2EBFFF00BB7CC7 /* RetroCalculatorUITests */,
 				B6499EA01E2EBFFF00BB7CC7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,32 +93,16 @@
 		B6499EA11E2EBFFF00BB7CC7 /* RetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				B6499ED21E2FF53900BB7CC7 /* btn.wav */,
+				B6499ED01E2FF4EF00BB7CC7 /* Minecraft.ttf */,
 				B6499EA21E2EBFFF00BB7CC7 /* AppDelegate.swift */,
-				B6499EA41E2EBFFF00BB7CC7 /* ViewController.swift */,
+				B6499EA41E2EBFFF00BB7CC7 /* CalculatorScreen.swift */,
 				B6499EA61E2EBFFF00BB7CC7 /* Main.storyboard */,
 				B6499EA91E2EBFFF00BB7CC7 /* Assets.xcassets */,
 				B6499EAB1E2EBFFF00BB7CC7 /* LaunchScreen.storyboard */,
 				B6499EAE1E2EBFFF00BB7CC7 /* Info.plist */,
 			);
 			path = RetroCalculator;
-			sourceTree = "<group>";
-		};
-		B6499EB61E2EBFFF00BB7CC7 /* RetroCalculatorTests */ = {
-			isa = PBXGroup;
-			children = (
-				B6499EB71E2EBFFF00BB7CC7 /* RetroCalculatorTests.swift */,
-				B6499EB91E2EBFFF00BB7CC7 /* Info.plist */,
-			);
-			path = RetroCalculatorTests;
-			sourceTree = "<group>";
-		};
-		B6499EC11E2EBFFF00BB7CC7 /* RetroCalculatorUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B6499EC21E2EBFFF00BB7CC7 /* RetroCalculatorUITests.swift */,
-				B6499EC41E2EBFFF00BB7CC7 /* Info.plist */,
-			);
-			path = RetroCalculatorUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +212,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6499ED31E2FF53900BB7CC7 /* btn.wav in Resources */,
 				B6499EAD1E2EBFFF00BB7CC7 /* LaunchScreen.storyboard in Resources */,
 				B6499EAA1E2EBFFF00BB7CC7 /* Assets.xcassets in Resources */,
+				B6499ED11E2FF4EF00BB7CC7 /* Minecraft.ttf in Resources */,
 				B6499EA81E2EBFFF00BB7CC7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6499EA51E2EBFFF00BB7CC7 /* ViewController.swift in Sources */,
+				B6499EA51E2EBFFF00BB7CC7 /* CalculatorScreen.swift in Sources */,
 				B6499EA31E2EBFFF00BB7CC7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6499EB81E2EBFFF00BB7CC7 /* RetroCalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +257,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6499EC31E2EBFFF00BB7CC7 /* RetroCalculatorUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +485,7 @@
 				B6499EC91E2EBFFF00BB7CC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6499ECA1E2EBFFF00BB7CC7 /* Build configuration list for PBXNativeTarget "RetroCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +494,7 @@
 				B6499ECC1E2EBFFF00BB7CC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6499ECD1E2EBFFF00BB7CC7 /* Build configuration list for PBXNativeTarget "RetroCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +503,7 @@
 				B6499ECF1E2EBFFF00BB7CC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
