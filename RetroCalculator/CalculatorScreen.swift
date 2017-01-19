@@ -77,6 +77,7 @@ class CalculatorScreen: UIViewController {
     }
     
     @IBAction func ClearBtnPressed(_ sender: UIButton) {
+        playAudio()
         leftValue = ""
         rightValue = ""
         runningValue = ""
@@ -105,7 +106,11 @@ class CalculatorScreen: UIViewController {
                 
                 leftValue = result
                 outputLabel.text = result
+                currentOperator = Operators.Empty
             }
+        } else if leftValue != "" {
+        // This happens when user has already calculated successfully once and continue calculating
+            currentOperator = operation            
         } else {
         // This is the first time an operator being pushed
         leftValue = runningValue
