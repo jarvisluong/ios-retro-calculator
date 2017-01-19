@@ -110,7 +110,7 @@ class CalculatorScreen: UIViewController {
         // This is the first time an operator being pushed
         leftValue = runningValue
         runningValue = ""
-            currentOperator = operation
+        currentOperator = operation
         }
     }
     
