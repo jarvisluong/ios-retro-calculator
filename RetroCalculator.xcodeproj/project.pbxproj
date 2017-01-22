@@ -173,6 +173,7 @@
 				TargetAttributes = {
 					B6499E9E1E2EBFFF00BB7CC7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C5NJAA29EC;
 						ProvisioningStyle = Automatic;
 					};
 					B6499EB21E2EBFFF00BB7CC7 = {
@@ -392,6 +393,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C5NJAA29EC;
 				INFOPLIST_FILE = RetroCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jarvisLuong.RetroCalculator;
@@ -404,6 +406,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C5NJAA29EC;
 				INFOPLIST_FILE = RetroCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jarvisLuong.RetroCalculator;
